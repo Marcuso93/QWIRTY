@@ -1,0 +1,77 @@
+<style>
+  * {
+    display: flex;
+  }
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: Open+Sans;
+  align-items: flex-start;
+}
+
+.item {
+  flex-basis: 3px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 8px black;
+}
+
+.item-name {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  color: palevioletred;
+  font-size: larger;
+}
+
+.fact-line {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+.add-item {
+  background: peru;
+  color: antiquewhite;
+  border-radius: 5px;
+  
+}
+
+.fact-name {
+  font-family: Cambria;
+}
+
+.item-description {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .item {
+    font-size: 15px;
+    flex-basis: 100%;
+  }
+
+  .items {
+    flex-direction: column;
+  }
+}
+
+
+</style>

@@ -1,0 +1,28 @@
+<style>
+
+* {
+    display: flex;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 256px;
+    
+}
+
+.a_categories {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: rgb(131, 119, 55);
+    color: white;
+}
+
+.a_categories:hover {
+  box-shadow: 0 2px 5px -2px black;
+}
+
+</style>
